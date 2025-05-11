@@ -1,0 +1,13 @@
+fastapi[standard]
+sqlmodel
+bcrypt
+pyjwt
+alembic
+pymysql
+pydantic-settings
+python-dotenv
+pytest
+httpx
+loguru
+mysqlclient
+cryptography
