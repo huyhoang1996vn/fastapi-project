@@ -52,6 +52,14 @@ alembic downgrade -1
 
 
 ### Setup and Running
+```bash
+
+virtualenv -p python3 venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+
 1. Environment Setup:
 - Create a .env file with necessary variables following .env.example
 - Install dependencies: pip install -r requirements.txt
@@ -86,12 +94,6 @@ The application includes comprehensive tests in tests/test_main.py:
 pytest tests/test_main.py -v
 ```
 
-### Deployment
-
-- Endpoint: https://assignment-cinch.onrender.com/docs (can slow because free tier)
-- Mysql: https://railway.com/
 
 
-virtualenv -p python3 venv
-source venv/bin/activate
-pip install -r requirements.txt 
+ 
